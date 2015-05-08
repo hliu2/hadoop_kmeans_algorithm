@@ -66,7 +66,8 @@ public class KMeansHadoop {
 			float mindistance = 999999999.9f;
 			int winnercentroid = -1;
 			for (int i = 0; i<10; i++){
-				distance = (pointx - centroids[i][0])*(pointx- centroids[i][0])+(pointy-centroids[i][1])*(pointy-centroids[i][1]);
+				distance = (pointx - centroids[i][0])*(pointx- centroids[i][0])+
+				         (pointy-centroids[i][1])*(pointy-centroids[i][1]);
 				if(distance < mindistance){
 					mindistance = distance;
 					winnercentroid = i;
