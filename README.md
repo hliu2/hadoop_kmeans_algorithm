@@ -1,2 +1,2 @@
-# hadoop_kmeans_algorithm
-the machine learning algorthim K-means implemented in Hadoop using java
+# Hadoop kmeans algorithm
+The machine learning algorthim K-means implemented in Hadoop using java
